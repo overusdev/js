@@ -7,7 +7,7 @@ function getMsg(name, job, age){
 const obj = {
     greet: 'Hello',
     msg: `my name is`,
-}
+};
 
 console.log(getMsg.call(obj, 'Sergey', 'FE-developer', 33));
 

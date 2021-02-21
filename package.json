@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/overusdev/js.git",
   "author": "oserus.dev",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint" : "./node_modules/.bin/eslint scripts/main.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
 }
